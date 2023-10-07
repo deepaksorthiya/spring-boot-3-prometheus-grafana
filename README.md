@@ -7,11 +7,11 @@ Edit [datasource.yml](https://github.com/deepaksorthiya/spring-boot-prometheus-g
 Set up a Docker local environment on your laptop by running these commands in the terminal:
 
 1. Start Grafana and Prometheus and ensure that all services are running:
-    ```
+    ```bash
     docker compose up
    ```
 2. Start Spring boot app:
-    ```
+    ```bash
     mvn spring-boot:run
    ```   
 Grafana [http://localhost:3000](http://localhost:3000)

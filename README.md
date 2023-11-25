@@ -1,8 +1,8 @@
-# spring-boot-prometheus-grafana
+# spring-boot-3-prometheus-grafana
 
 ## Quick start
 
-Edit [datasource.yml](https://github.com/deepaksorthiya/spring-boot-prometheus-grafana/blob/master/monitoring/grafana/provisioning/datasources/datasource.yml) and [prometheus.yml](https://github.com/deepaksorthiya/spring-boot-prometheus-grafana/blob/master/monitoring/prometheus/prometheus.yml) file and add replace YOUR_HOST with your local IP
+Edit [datasource.yml](https://github.com/deepaksorthiya/spring-boot-3-prometheus-grafana/blob/master/monitoring/grafana/provisioning/datasources/datasource.yml) and [prometheus.yml](https://github.com/deepaksorthiya/spring-boot-3-prometheus-grafana/blob/master/monitoring/prometheus/prometheus.yml) file and add replace YOUR_HOST with your local IP
 
 Set up a Docker local environment on your laptop by running these commands in the terminal:
 

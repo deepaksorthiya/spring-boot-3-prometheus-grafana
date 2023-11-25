@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring-boot-prometheus-grafana</artifactId>
+	<artifactId>spring-boot-3-prometheus-grafana</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-prometheus-grafana</name>
-	<description>Demo project for Spring Boot Prometheus Grafana</description>
+	<name>spring-boot-3-prometheus-grafana</name>
+	<description>Demo project for Spring Boot 3 Prometheus Grafana</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

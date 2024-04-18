@@ -19,8 +19,10 @@ Username: admin Password: admin
 
 Prometheus : [http://localhost:9090](http://localhost:9090/targets)
 
-Open Grafana URL and Import this dashboard : 
+1. Open Grafana URL and Import this dashboard : 
 [spring-boot-statistics](https://grafana.com/grafana/dashboards/19004-spring-boot-statistics/)
+
+2. Open Grafana URL and Import this dashboard : [JVM-Micrometer](https://grafana.com/grafana/dashboards/4701-jvm-micrometer/)
 
 More info : 
 [spring-boot-applications-with-prometheus-and-grafana](https://medium.com/simform-engineering/revolutionize-monitoring-empowering-spring-boot-applications-with-prometheus-and-grafana-e99c5c7248cf)

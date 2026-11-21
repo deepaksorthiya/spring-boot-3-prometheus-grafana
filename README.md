@@ -1,21 +1,36 @@
-[![Java Maven Build Test](https://github.com/deepaksorthiya/spring-boot-3-prometheus-grafana/actions/workflows/maven-build.yml/badge.svg)](https://github.com/deepaksorthiya/spring-boot-3-prometheus-grafana/actions/workflows/maven-build.yml)
+<h1 style="text-align: center;">Spring Boot Prometheus Grafana Project</h1>
+
+<p style="text-align: center;">
+  <a href="https://github.com/deepaksorthiya/spring-boot-3-prometheus-grafana/actions/workflows/maven-jvm-non-native-build.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/deepaksorthiya/spring-boot-3-prometheus-grafana/maven-jvm-non-native-build.yml?style=for-the-badge&label=JVM%20Maven%20Build" alt="JVM Maven Build"/>
+  </a>  
+  <a href="https://github.com/deepaksorthiya/spring-boot-3-prometheus-grafana/actions/workflows/maven-graalvm-native-build.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/deepaksorthiya/spring-boot-3-prometheus-grafana/maven-graalvm-native-build.yml?style=for-the-badge&label=GraalVM%20Maven%20Build" alt="GraalVM Maven Build"/>
+  </a>
+  <a href="https://hub.docker.com/r/deepaksorthiya/spring-boot-3-prometheus-grafana">
+    <img src="https://img.shields.io/docker/pulls/deepaksorthiya/spring-boot-3-prometheus-grafana?style=for-the-badge" alt="Docker"/>
+  </a>
+  <a href="https://spring.io/projects/spring-boot">
+    <img src="https://img.shields.io/badge/spring--boot-3.5.16-brightgreen?logo=springboot&style=for-the-badge" alt="Spring Boot"/>
+  </a>
+</p>
 
 # Getting Started
 
 ### Requirements:
 
 ```
-Git: 2.47.1
-Spring Boot: 3.4.1
-Maven: 3.9+
-Java: 17
+Git: 2.54+
+Spring Boot: 3.5.16
+Maven: 3.10+
+Java: 25
 Docker Desktop: Tested on 4.37.1
 ```
 
 ### Clone this repository:
 
 ```bash
-git clone https://github.com/spring-boot-3-prometheus-grafana.git
+git clone https://github.com/deepaksorthiya/spring-boot-3-prometheus-grafana.git
 cd spring-boot-3-prometheus-grafana
 ```
 
@@ -42,7 +57,7 @@ docker compose up
 ./mvnw clean package
 ```
 
-### (Optional) Build Docker Image(docker should be running):
+### (Optional) Build Docker Image (docker should be running):
 
 ```bash
 ./mvnw clean spring-boot:build-image -DskipTests
